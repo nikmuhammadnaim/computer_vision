@@ -1,2 +1,0 @@
-__Q: Why do we need to 'destroy all windows'?__  
-Ans: Destroying all windows is necessary to clean up the resources used by the OpenCV library for displaying images. When you display an image using `cv2.imshow()`, a window is created to show the image. If you don't destroy the windows properly, they may remain open even after the program has finished executing, leading to unnecessary memory usage. By calling `cv2.destroyAllWindows()`, you ensure that all windows are closed and the resources are released properly.
