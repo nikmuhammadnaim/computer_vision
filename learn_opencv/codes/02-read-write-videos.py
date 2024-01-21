@@ -4,6 +4,9 @@ import sys
 
 import cv2
 
+# Set working directory to script's location
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 
 def get_args():
     """Get command-line arguments."""
